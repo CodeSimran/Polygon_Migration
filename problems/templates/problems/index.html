@@ -204,7 +204,7 @@
                     <div class="data-section">
                         <h3>Problem Statement (Legend)</h3>
                         <div class="card card-body">
-                            {{ fetched_problem.problem_statement|linebreaksbr }}
+                            {{ fetched_problem.problem_statement|safe }}
                         </div>
                     </div>
                 {% endif %}
@@ -212,7 +212,7 @@
                     <div class="data-section">
                         <h3>Input Format</h3>
                         <div class="card card-body">
-                            {{ fetched_problem.input_format|linebreaksbr }}
+                            {{ fetched_problem.input_format|safe }}
                         </div>
                     </div>
                 {% endif %}
@@ -220,7 +220,7 @@
                     <div class="data-section">
                         <h3>Output Format</h3>
                         <div class="card card-body">
-                            {{ fetched_problem.output_format|linebreaksbr }}
+                            {{ fetched_problem.output_format|safe }}
                         </div>
                     </div>
                 {% endif %}
@@ -228,7 +228,7 @@
                     <div class="data-section">
                         <h3>Notes</h3>
                         <div class="card card-body">
-                            {{ fetched_problem.notes|linebreaksbr }}
+                            {{ fetched_problem.notes|safe }}
                         </div>
                     </div>
                 {% endif %}
@@ -343,7 +343,7 @@
                 <div class="data-section">
                     <h3>Constraints</h3>
                     <div class="card card-body">
-                        {{ fetched_problem.constraints|linebreaksbr }}
+                        {{ fetched_problem.constraints|safe }}
                     </div>
                 </div>
             {% endif %}
@@ -351,7 +351,7 @@
                 <div class="data-section">
                     <h3>Editorial</h3>
                     <div class="card card-body">
-                        {{ fetched_problem.editorial|linebreaksbr }}
+                        {{ fetched_problem.editorial|safe }}
                     </div>
                 </div>
             {% endif %}

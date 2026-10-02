@@ -82,3 +82,9 @@
 [INFO] 2026-10-03 00:16:08,460 local | LocalStorageProvider initialized at 'C:\Users\Asus\Downloads\polygon-main\polygon-main\PolygonMigration\media\cloud_storage'
 [INFO] 2026-10-03 00:16:08,463 local | [Local] Saved file to C:\Users\Asus\Downloads\polygon-main\polygon-main\PolygonMigration\media\cloud_storage\test_cases\69943\1
 [INFO] 2026-10-03 00:16:08,465 local | [Local] Saved file to C:\Users\Asus\Downloads\polygon-main\polygon-main\PolygonMigration\media\cloud_storage\test_cases\69943\1.a
+[INFO] 2026-10-03 00:54:55,156 views | Entered index view with method=GET
+[INFO] 2026-10-03 00:54:55,175 views | Exiting index view
+[INFO] 2026-10-03 00:55:56,126 views | Entered index view with method=POST
+[DEBUG] 2026-10-03 00:55:56,140 views | POST data: polygon_id=69933, migrate_to_azure=None, migrate_to_db=None, migrate_test_cases_to_db=None, difficulty=, selected_tags=[], new_tag=
+[DEBUG] 2026-10-03 00:55:56,140 views | All POST data: {'csrfmiddlewaretoken': ['OBZa1TrDWJIVwmYwXAguFC3InsWa1gyEN4kfVL3idJYDZQ8lsZzwfGERYgMRYbqi'], 'problem_id': ['69933']}
+[INFO] 2026-10-03 00:55:56,141 views | Processing polygon_id=69933
