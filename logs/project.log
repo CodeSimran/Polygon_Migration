@@ -1,0 +1,84 @@
+[INFO] 2026-10-02 23:28:33,892 factory | Initializing storage provider: 'gdrive'
+[INFO] 2026-10-02 23:28:34,662 gdrive | Google Drive service initialized successfully.
+[INFO] 2026-10-02 23:29:37,251 views | Entered index view with method=GET
+[INFO] 2026-10-02 23:29:37,264 views | Exiting index view
+[INFO] 2026-10-02 23:32:08,213 views | Entered index view with method=POST
+[DEBUG] 2026-10-02 23:32:08,224 views | POST data: polygon_id=69933, migrate_to_azure=None, migrate_to_db=None, migrate_test_cases_to_db=None, difficulty=, selected_tags=[], new_tag=
+[DEBUG] 2026-10-02 23:32:08,224 views | All POST data: {'csrfmiddlewaretoken': ['kljLvtOOGe4ySpJkXWqr35q2l9MTMUI9d85b8dvjd9xqIlw8zSVDaLNWZQn86PoJ'], 'problem_id': ['69933']}
+[INFO] 2026-10-02 23:32:08,224 views | Processing polygon_id=69933
+[INFO] 2026-10-02 23:33:17,993 views | Entered index view with method=POST
+[DEBUG] 2026-10-02 23:33:18,004 views | POST data: polygon_id=208585, migrate_to_azure=None, migrate_to_db=None, migrate_test_cases_to_db=None, difficulty=, selected_tags=[], new_tag=
+[DEBUG] 2026-10-02 23:33:18,004 views | All POST data: {'csrfmiddlewaretoken': ['kljLvtOOGe4ySpJkXWqr35q2l9MTMUI9d85b8dvjd9xqIlw8zSVDaLNWZQn86PoJ'], 'problem_id': ['208585']}
+[INFO] 2026-10-02 23:33:18,005 views | Processing polygon_id=208585
+[INFO] 2026-10-02 23:35:34,110 polygon_api | Fetching problem info for 208585
+[INFO] 2026-10-02 23:35:35,079 polygon_api | Polygon problem.info response: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[INFO] 2026-10-02 23:35:35,082 polygon_api | Fetching test cases for 208585, testset
+[INFO] 2026-10-02 23:35:36,489 factory | Initializing storage provider: 'gdrive'
+[INFO] 2026-10-02 23:35:36,846 gdrive | Google Drive service initialized successfully.
+[ERROR] 2026-10-02 23:35:39,092 gdrive | [GDrive] Error uploading test_cases/208585/1: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files?fields=id&alt=json returned "Insufficient permissions for the specified parent.". Details: "[{'message': 'Insufficient permissions for the specified parent.', 'domain': 'global', 'reason': 'insufficientParentPermissions'}]">
+[ERROR] 2026-10-02 23:35:40,012 gdrive | [GDrive] Error uploading test_cases/208585/1.a: <HttpError 403 when requesting https://www.googleapis.com/drive/v3/files?fields=id&alt=json returned "Insufficient permissions for the specified parent.". Details: "[{'message': 'Insufficient permissions for the specified parent.', 'domain': 'global', 'reason': 'insufficientParentPermissions'}]">
+[INFO] 2026-10-02 23:50:28,088 polygon_api | Fetching problem info for 208585
+[INFO] 2026-10-02 23:50:29,429 polygon_api | Polygon problem.info response: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[INFO] 2026-10-02 23:50:29,433 polygon_api | Fetching test cases for 208585, testset
+[INFO] 2026-10-02 23:50:30,551 factory | Initializing storage provider: 'gdrive'
+[INFO] 2026-10-02 23:50:30,904 gdrive | Google Drive service initialized successfully.
+[ERROR] 2026-10-02 23:50:31,590 gdrive | [GDrive] Error uploading test_cases/208585/1: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+[ERROR] 2026-10-02 23:50:31,688 gdrive | [GDrive] Error uploading test_cases/208585/1.a: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+[INFO] 2026-10-02 23:59:37,339 polygon_api | Fetching problem info for 208585
+[INFO] 2026-10-02 23:59:38,528 polygon_api | Polygon problem.info response: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[INFO] 2026-10-02 23:59:38,534 polygon_api | Fetching test cases for 208585, testset
+[INFO] 2026-10-02 23:59:39,939 factory | Initializing storage provider: 'gdrive'
+[INFO] 2026-10-02 23:59:40,286 gdrive | Google Drive service initialized successfully.
+[INFO] 2026-10-02 23:59:43,199 gdrive | Created Google Drive folder 'test_cases' (ID: 1doyItwib9TkNUX4ZhOoZo3Ir2LXMCPrF)
+[INFO] 2026-10-02 23:59:44,784 gdrive | Created Google Drive folder '208585' (ID: 1wI8BCzaI2RM1oFLQN4FyPl--vupwajuF)
+[ERROR] 2026-10-02 23:59:47,344 gdrive | [GDrive] Error uploading test_cases/208585/1: <HttpError 403 when requesting https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable returned "Service Accounts do not have storage quota. Leverage shared drives (https://developers.google.com/workspace/drive/api/guides/about-shareddrives), or use OAuth delegation (http://support.google.com/a/answer/7281227) instead.". Details: "[{'message': 'Service Accounts do not have storage quota. Leverage shared drives (https://developers.google.com/workspace/drive/api/guides/about-shareddrives), or use OAuth delegation (http://support.google.com/a/answer/7281227) instead.', 'domain': 'usageLimits', 'reason': 'storageQuotaExceeded'}]">
+[ERROR] 2026-10-02 23:59:50,217 gdrive | [GDrive] Error uploading test_cases/208585/1.a: <HttpError 403 when requesting https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable returned "Service Accounts do not have storage quota. Leverage shared drives (https://developers.google.com/workspace/drive/api/guides/about-shareddrives), or use OAuth delegation (http://support.google.com/a/answer/7281227) instead.". Details: "[{'message': 'Service Accounts do not have storage quota. Leverage shared drives (https://developers.google.com/workspace/drive/api/guides/about-shareddrives), or use OAuth delegation (http://support.google.com/a/answer/7281227) instead.', 'domain': 'usageLimits', 'reason': 'storageQuotaExceeded'}]">
+[INFO] 2026-10-03 00:01:11,662 views | Entered index view with method=POST
+[DEBUG] 2026-10-03 00:01:11,675 views | POST data: polygon_id=208585, migrate_to_azure=None, migrate_to_db=None, migrate_test_cases_to_db=None, difficulty=, selected_tags=[], new_tag=
+[DEBUG] 2026-10-03 00:01:11,675 views | All POST data: {'csrfmiddlewaretoken': ['kljLvtOOGe4ySpJkXWqr35q2l9MTMUI9d85b8dvjd9xqIlw8zSVDaLNWZQn86PoJ'], 'problem_id': ['208585']}
+[INFO] 2026-10-03 00:01:11,676 views | Processing polygon_id=208585
+[INFO] 2026-10-03 00:01:20,594 views | Entered index view with method=GET
+[INFO] 2026-10-03 00:01:20,599 views | Exiting index view
+[INFO] 2026-10-03 00:01:28,282 views | Entered index view with method=POST
+[DEBUG] 2026-10-03 00:01:28,292 views | POST data: polygon_id=208585, migrate_to_azure=None, migrate_to_db=None, migrate_test_cases_to_db=None, difficulty=, selected_tags=[], new_tag=
+[DEBUG] 2026-10-03 00:01:28,292 views | All POST data: {'csrfmiddlewaretoken': ['d9KyAaJ8Y6NvYkpbKf061LEZx8DcxWMb6WwYdUqDv1gnOgcZmbvi8r1TbPerRRsL'], 'problem_id': ['208585']}
+[INFO] 2026-10-03 00:01:28,293 views | Processing polygon_id=208585
+[INFO] 2026-10-03 00:03:07,980 polygon_api | Fetching problem info for 208585
+[INFO] 2026-10-03 00:03:09,169 polygon_api | Polygon problem.info response: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[INFO] 2026-10-03 00:03:09,175 polygon_api | Fetching test cases for 208585, testset
+[INFO] 2026-10-03 00:03:10,304 factory | Initializing storage provider: 'local'
+[INFO] 2026-10-03 00:03:10,312 local | LocalStorageProvider initialized at 'C:\Users\Asus\Downloads\polygon-main\polygon-main\PolygonMigration\media\cloud_storage'
+[INFO] 2026-10-03 00:03:10,314 local | [Local] Saved file to C:\Users\Asus\Downloads\polygon-main\polygon-main\PolygonMigration\media\cloud_storage\test_cases\208585\1
+[INFO] 2026-10-03 00:03:10,316 local | [Local] Saved file to C:\Users\Asus\Downloads\polygon-main\polygon-main\PolygonMigration\media\cloud_storage\test_cases\208585\1.a
+[INFO] 2026-10-03 00:06:50,302 views | Entered index view with method=POST
+[DEBUG] 2026-10-03 00:06:50,316 views | POST data: polygon_id=69933, migrate_to_azure=None, migrate_to_db=None, migrate_test_cases_to_db=None, difficulty=, selected_tags=[], new_tag=
+[DEBUG] 2026-10-03 00:06:50,316 views | All POST data: {'csrfmiddlewaretoken': ['d9KyAaJ8Y6NvYkpbKf061LEZx8DcxWMb6WwYdUqDv1gnOgcZmbvi8r1TbPerRRsL'], 'problem_id': ['69933']}
+[INFO] 2026-10-03 00:06:50,317 views | Processing polygon_id=69933
+[INFO] 2026-10-03 00:11:33,087 polygon_api | Fetching problem info for 69933
+[INFO] 2026-10-03 00:11:34,383 polygon_api | Polygon problem.info response: {'timeLimit': 1000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': True, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[INFO] 2026-10-03 00:11:34,390 polygon_api | Fetching test cases for 69933, testset
+[INFO] 2026-10-03 00:11:35,484 factory | Initializing storage provider: 'local'
+[INFO] 2026-10-03 00:11:35,486 local | LocalStorageProvider initialized at 'C:\Users\Asus\Downloads\polygon-main\polygon-main\PolygonMigration\media\cloud_storage'
+[INFO] 2026-10-03 00:11:35,488 local | [Local] Saved file to C:\Users\Asus\Downloads\polygon-main\polygon-main\PolygonMigration\media\cloud_storage\test_cases\69933\1
+[INFO] 2026-10-03 00:11:35,489 local | [Local] Saved file to C:\Users\Asus\Downloads\polygon-main\polygon-main\PolygonMigration\media\cloud_storage\test_cases\69933\1.a
+[INFO] 2026-10-03 00:11:54,723 views | Entered index view with method=POST
+[DEBUG] 2026-10-03 00:11:54,735 views | POST data: polygon_id=69933, migrate_to_azure=None, migrate_to_db=None, migrate_test_cases_to_db=None, difficulty=, selected_tags=[], new_tag=
+[DEBUG] 2026-10-03 00:11:54,735 views | All POST data: {'csrfmiddlewaretoken': ['d9KyAaJ8Y6NvYkpbKf061LEZx8DcxWMb6WwYdUqDv1gnOgcZmbvi8r1TbPerRRsL'], 'problem_id': ['69933']}
+[INFO] 2026-10-03 00:11:54,735 views | Processing polygon_id=69933
+[INFO] 2026-10-03 00:12:51,462 views | Entered index view with method=GET
+[INFO] 2026-10-03 00:12:51,474 views | Exiting index view
+[INFO] 2026-10-03 00:13:12,103 views | Entered index view with method=POST
+[DEBUG] 2026-10-03 00:13:12,110 views | POST data: polygon_id=69933, migrate_to_azure=None, migrate_to_db=None, migrate_test_cases_to_db=None, difficulty=, selected_tags=[], new_tag=
+[DEBUG] 2026-10-03 00:13:12,110 views | All POST data: {'csrfmiddlewaretoken': ['fesmBTuJJEGFc5qeovPu7VBTAMuEVtNj81eMeDbegz9x21d20rkGeBYNet5TfotT'], 'problem_id': ['69933']}
+[INFO] 2026-10-03 00:13:12,110 views | Processing polygon_id=69933
+[INFO] 2026-10-03 00:14:36,435 views | Entered index view with method=POST
+[DEBUG] 2026-10-03 00:14:36,441 views | POST data: polygon_id=69943, migrate_to_azure=None, migrate_to_db=None, migrate_test_cases_to_db=None, difficulty=, selected_tags=[], new_tag=
+[DEBUG] 2026-10-03 00:14:36,441 views | All POST data: {'csrfmiddlewaretoken': ['fesmBTuJJEGFc5qeovPu7VBTAMuEVtNj81eMeDbegz9x21d20rkGeBYNet5TfotT'], 'problem_id': ['69943']}
+[INFO] 2026-10-03 00:14:36,441 views | Processing polygon_id=69943
+[INFO] 2026-10-03 00:15:52,910 polygon_api | Fetching problem info for 69943
+[INFO] 2026-10-03 00:15:56,245 polygon_api | Polygon problem.info response: {'timeLimit': 2000, 'inputFile': 'stdin', 'outputFile': 'stdout', 'interactive': False, 'wellFormed': True, 'memoryLimit': 256, 'skipDuplicatedTestsValidation': False}
+[INFO] 2026-10-03 00:15:56,246 polygon_api | Fetching test cases for 69943, testset
+[INFO] 2026-10-03 00:16:08,456 factory | Initializing storage provider: 'local'
+[INFO] 2026-10-03 00:16:08,460 local | LocalStorageProvider initialized at 'C:\Users\Asus\Downloads\polygon-main\polygon-main\PolygonMigration\media\cloud_storage'
+[INFO] 2026-10-03 00:16:08,463 local | [Local] Saved file to C:\Users\Asus\Downloads\polygon-main\polygon-main\PolygonMigration\media\cloud_storage\test_cases\69943\1
+[INFO] 2026-10-03 00:16:08,465 local | [Local] Saved file to C:\Users\Asus\Downloads\polygon-main\polygon-main\PolygonMigration\media\cloud_storage\test_cases\69943\1.a

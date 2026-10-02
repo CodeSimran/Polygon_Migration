@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# Google Drive Credentials
+gdrive-credentials.json
+*.json.json
+setup_drive_folder.py
+test_problem.py
+verify_setup.py
+
+# Django
+*.sqlite3
+media/
+static/
+
+# Editor
+.vscode/
+.idea/
